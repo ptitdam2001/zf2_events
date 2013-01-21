@@ -1,0 +1,15 @@
+<?php
+return array(
+	'events' => array(
+		'Zend\Mvc\Application' => array(
+			'dispatch' => array(
+				/* determine a list of method will call for the current event */
+				array(
+					'service' => '',
+					'function' => '',
+				),
+				
+			),
+		),
+	),
+);
